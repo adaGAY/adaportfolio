@@ -1,0 +1,104 @@
+  N
+
+.hero {
+  background-image: url('..\image\adama.jpg'); /* Remplacez par le chemin de votre image */
+  background-size: cover; /* Couvre toute la section */
+  background-position: center; /* Centre l'image */
+  height: 5vh; /* Hauteur de la section hero */
+  position: relative; /* Positionnement relatif pour le fond */;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75); /* Fond noir transparent */
+  z-index: 1; /* Positionner derrière le contenu */
+}
+
+.navbar {
+  background-color: rgba(128, 128, 128, 0.2); /* Fond gris transparent à 35% */
+  position:relative; /* Positionnement pour superposer */
+  z-index: 2; /* Positionner au-dessus du fond */
+  padding: 5px 15px  ;
+ margin: auto ;
+  margin-top:  3% ;
+  width: 550px;
+  justify-content: center;
+
+}
+
+.menu {
+  list-style-type:none;
+  margin: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: center; /* Aligne les éléments au centre */
+
+}
+
+.menu li {
+  margin: 0 20px; /* Espacement horizontal entre les éléments */
+  text-align: center;
+  width: 70px;
+}
+
+.menu a {
+  color: white; /* Couleur du texte */
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu a:hover {
+  text-decoration: underline; /* Soulignement au survol */
+}
+
+.body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+.hero {
+  position: relative;
+  text-align: center; /* Centre le contenu horizontalement */
+  height: 500px; /* Ajustez la hauteur selon vos besoins */
+  display: flex; /* Utilise Flexbox pour aligner les éléments */
+  flex-direction:initial; /* Empile les éléments verticalement */
+  justify-content:center; /* Centre les éléments verticalement */
+  align-items:normal; /* Centre les éléments horizontalement */
+}
+
+.hero__image {
+ height: 10%;
+  max-width: 100px; /* Ajustez la largeur maximale de l'image */}
+ 
+
+.hero__content {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff; /* Couleur du texte */
+  text-align: center;
+  z-index: 1; /* Place le contenu au-dessus de l'image */
+}
+
+.hero__title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero__description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+
+  
+
+
+
