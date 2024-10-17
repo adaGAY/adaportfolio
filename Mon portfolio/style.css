@@ -1,0 +1,89 @@
+  N
+  .menu li {
+    margin: 0 10px; /* Espacement horizontal entre les éléments */
+    text-align: center;
+    width: 70px;
+  }
+
+.navbar {
+  background-color: rgba(128, 128, 128, 0.50); /* Fond gris transparent à 35% */
+  position:relative; /* Positionnement pour superposer */
+  z-index: 2; /* Positionner au-dessus du fond */
+  padding: 5px 15px  ;
+  width: 550px;
+  margin: 14px 10px 30px 30%;
+}
+
+.menu {
+  list-style-type:none;
+  margin: 10px 0 10px -3% ;
+  padding-left: 0;
+  padding-right: 10%;
+  display: flex;
+  justify-content: center; /* Aligne les éléments au centre */
+  color: white
+
+}
+
+.menu li {
+  margin: 0 20px; /* Espacement horizontal entre les éléments */
+  text-align: center;
+  width: 70px;
+}
+
+.menu a {
+  color: white; /* Couleur du texte */
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu a:hover {
+  text-decoration: underline; /* Soulignement au survol */
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  height: 100vh; /* Ajuste la hauteur à 100% de la hauteur de la fenêtre */
+}
+
+.hero img {
+  position: absolute;
+  top:-3%;
+  left: 0;
+  width: 100%;
+  height:150%;
+  z-index: -1; /* Place l'image en arrière-plan */
+}
+
+.content { 
+  color: white;
+  margin-top: 18%;
+  font-size: 20px;
+}
+
+.text1 { font-weight: lighter;
+}
+
+.lead {font-weight: bold;
+}
+
+.body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: white;
+  background-color: black;
+  margin-top: 30%;
+}
+
+py-5 {
+padding-top: 10%
+}
+
+
+
+
+  
+
+
+
